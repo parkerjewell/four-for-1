@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 500px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.input {
+    width: 100%;
+}
+
+.name {
+    flex: 1 1 80px;
+}
+
+.email {
+    flex: 2 1 150px;
+}
+
+.submit {
+    flex: 1;
+    align-self: end;
+}
+
+button {
+    width: 100%;
+
+}
